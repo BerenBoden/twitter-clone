@@ -1,0 +1,40 @@
+@import '../sidebar/SidebarOption.scss';
+
+.tweetBox {
+    padding-bottom: 10px;
+    border-bottom: 8px solid $twitterBackground;
+    form {
+        display: flex;
+        flex-direction: column;
+        .tweetBox__tweetBtn {
+            margin: auto;
+            font-family: 'Poppins', sans-serif !important;
+            background-color: $twitterBlue !important;
+            border: none !important; 
+            font-weight: 600 !important;
+            color: white !important;
+            text-transform: inherit !important;
+            border-radius: 30px !important;
+            height: 50px !important;
+            margin-top: 20px !important;
+            width: 90%;
+        }
+        .tweetBox__input {
+            display: flex;
+            padding: 20px;
+            input {
+                font-family: 'Poppins', sans-serif !important;
+                outline: none;
+                flex: 1;
+                margin-left: 20px;
+                font-size: 15px;
+                border: none;
+            }
+        }
+        .tweetBox__imageInput {
+            font-family: 'Poppins', sans-serif !important;
+            border: none;
+            padding: 10px;
+        }
+    }
+}

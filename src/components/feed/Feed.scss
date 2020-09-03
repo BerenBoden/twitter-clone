@@ -1,0 +1,24 @@
+@import '../sidebar/sidebarOption.scss';
+
+.feed {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    flex: 0.4;
+    border-right: 1px solid #e6ecf0;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    .feed__header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        border-bottom: 1px solid $twitterBackground;
+        background: #fff;
+        padding: 10px 20px;
+        h2 {
+            font-size: 20px;
+            font-weight: 800;
+        }
+    }
+}

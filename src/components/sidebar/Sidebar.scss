@@ -1,0 +1,28 @@
+@import './SidebarOption.scss';
+
+.sidebar {
+    border-right: 1px solid $twitterBackground;
+    flex: 0.3;
+    min-width: 250px;
+    padding-top: 15px;
+    .sidebar__twitterIcon {
+        color: $twitterBlue;
+        font-size: 30px !important;
+        margin-left: 10px;
+        margin-bottom: 15px;
+
+    }
+    .sidebar__tweet {
+        margin-left: 15px;
+        font-family: 'Poppins', sans-serif !important;
+        background-color: $twitterBlue !important;
+        border: none !important; 
+        font-weight: 700 !important;
+        color: white !important;
+        text-transform: inherit !important;
+        border-radius: 30px !important;
+        height: 50px !important;
+        margin-top: 20px !important;
+        width: 225px;
+    }
+}

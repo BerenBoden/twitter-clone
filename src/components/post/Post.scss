@@ -1,0 +1,46 @@
+@import '../sidebar/SidebarOption.scss';
+
+.post {
+    display: flex;
+    align-items:flex-start;
+    border-bottom: 1px solid $twitterBackground;
+    .post__avatar {
+        padding: 15px;
+    }
+    .post__body {
+        flex: 1;
+        padding: 10px;
+        .post__header {
+            .post__headerDescription {
+                margin-bottom: 10px;
+                font-size: 15px;
+            }
+            .post__headerText {
+                display: flex;
+                align-items: center;
+                h3 {
+                    font-size: 15px;
+                    margin-bottom: 5px;
+                }
+                .post__headerSpecial {
+                    font-weight: 600;
+                    font-size: 12px;
+                    color: grey;
+                }
+                .post__badge {
+                    font-size: 14px !important;
+                    color: $twitterBlue;
+                }
+            }
+        } 
+        img {
+            border-radius: 10px;
+            width: 100%;
+        }
+        .post__footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 40px;
+        }
+    }
+}
